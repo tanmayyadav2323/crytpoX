@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.example.jcrypto.view.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreen_to_signIn"
+            app:destination="@id/signIn" />
+        <action
+            android:id="@+id/action_splashScreen_to_dashboard"
+            app:destination="@id/dashboard" />
+    </fragment>
+    <fragment
+        android:id="@+id/signIn"
+        android:name="com.example.jcrypto.view.auth.SignIn"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signIn_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_signIn_to_dashboard"
+            app:destination="@id/dashboard" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.jcrypto.view.auth.SignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUp_to_signIn"
+            app:destination="@id/signIn" />
+        <action
+            android:id="@+id/action_signUp_to_dashboard"
+            app:destination="@id/dashboard" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.example.jcrypto.view.Dashboard"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboard_to_coinDetails"
+            app:destination="@id/coinDetails" />
+        <action
+            android:id="@+id/action_dashboard_to_coinTracker"
+            app:destination="@id/coinTracker" />
+        <action
+            android:id="@+id/action_dashboard_to_signIn"
+            app:destination="@id/signIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/coinDetails"
+        android:name="com.example.jcrypto.view.CoinDetails"
+        android:label="fragment_coin_details"
+        tools:layout="@layout/fragment_coin_details" >
+        <action
+            android:id="@+id/action_coinDetails_to_dashboard"
+            app:destination="@id/dashboard" />
+    </fragment>
+    <fragment
+        android:id="@+id/coinTracker"
+        android:name="com.example.jcrypto.view.CoinTracker"
+        android:label="fragment_coin_tracker"
+        tools:layout="@layout/fragment_coin_tracker" />
+</navigation>

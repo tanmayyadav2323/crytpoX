@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1096963788025",
+    "project_id": "j-crytpo",
+    "storage_bucket": "j-crytpo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096963788025:android:7fc0b42d3f2818c7482628",
+        "android_client_info": {
+          "package_name": "com.example.jcrypto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096963788025-u9cegu7siuo257qtbdrj0hh2jle93cnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRar0PVDhav_B9uBp_zUTarDbq1BplV0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096963788025-u9cegu7siuo257qtbdrj0hh2jle93cnq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
