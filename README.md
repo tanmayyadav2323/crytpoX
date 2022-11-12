@@ -18,41 +18,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-
-### Prerequisites
-
-Need latest flutter version with null safety and android v2 embedding
-* flutter
-  ```sh
-  flutter upgrade
-  ```
-
-### Installation
-
-1. Clone the repository from GitHub:
-
-```bash
-git clone https://github.com/yatendra2001/Pikc-Scanner.git
-```
-
-2. Get all dependencies:
-```bash
-flutter pub get
-```
-
-3. Run the app:
-
-```bash
-flutter run
-```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -75,17 +40,6 @@ Don't forget to give the project a star! Thanks again!
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@yatendrakumar27](https://twitter.com/yatendrakumar27) - contact@pikc.tech
-
-Project Link: [https://github.com/yatendra2001/Pikc-Scanner](https://github.com/yatendra2001/Pikc-Scanner)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
